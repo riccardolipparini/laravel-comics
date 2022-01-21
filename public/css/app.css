@@ -1,8 +1,125 @@
-body {
-  background: #F00;
+.blueline {
+  width: 100%;
+  height: 30px;
+  background-color: aqua;
 }
 
-.prova {
-  color: aqua;
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+#navbar img {
+  max-width: 50px;
+}
+
+#navbar li {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.active {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.jambo {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-image: url("https://www.fumettologica.it/wp-content/uploads/2021/03/infinite-frontier-dc-670x377.jpg");
+}
+
+.jambo .currentseries {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+  left: 200px;
+  bottom: -10px;
+}
+
+.jambo p {
+  color: white;
+}
+
+main {
+  height: 500px;
+  width: 100%;
+  background-color: #1f1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .centerseries {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .centerseries .series {
+  width: 18%;
+  height: 80px;
+  margin: 40px 5px;
+}
+
+main .centerseries .series h4 {
+  margin-top: 5px;
+  color: white;
+}
+
+main .centerseries .series img {
+  width: 100%;
+  height: 80px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.acquisti {
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acquisti .merch {
+  width: 16%;
+  height: 100px;
+}
+
+.acquisti .merch h1 {
+  color: white;
+}
+
+.jambofinal {
+  height: 400px;
+  width: 100%;
+  background-image: url();
+  background-color: #1d1c1c;
+}
+
+.final {
+  width: 100%;
+  height: 100px;
+  background-color: #202020;
 }
 

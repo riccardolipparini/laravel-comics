@@ -10,6 +10,10 @@
 <body>
     @include('components.comics-main-header')
 
+    @include('components.comics-jambo')
+
+    @include('components.series')
+
     @yield('content')
 
     @include('components.comics-main-footer')
