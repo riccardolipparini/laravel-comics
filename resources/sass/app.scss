@@ -112,3 +112,46 @@ main{
     height: 100px;
     background-color: rgb(32, 32, 32);
 }
+
+// comicsDescription
+.lineblue{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.contain-description{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    .description{
+        width: 50%;
+        margin-top: 30px;
+        
+        h1{
+            color: blue;
+        }
+        .containprice{
+            display: flex;
+        }
+        .price{
+            width: 70%;
+            height: 40px;
+            background-color: green;
+        }
+        .available{
+            width: 30%;
+            height: 40px;
+            background-color: green;
+            border-left: solid 2px white;
+        }
+    }
+    .contain-image{
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 0px;
+        //debug 
+        background-color: yellow;
+    }
+}

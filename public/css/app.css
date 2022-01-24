@@ -123,3 +123,50 @@ main .centerseries .series img {
   background-color: #202020;
 }
 
+.lineblue {
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+}
+
+.contain-description {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contain-description .description {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.contain-description .description h1 {
+  color: blue;
+}
+
+.contain-description .description .containprice {
+  display: flex;
+}
+
+.contain-description .description .price {
+  width: 70%;
+  height: 40px;
+  background-color: green;
+}
+
+.contain-description .description .available {
+  width: 30%;
+  height: 40px;
+  background-color: green;
+  border-left: solid 2px white;
+}
+
+.contain-description .contain-image {
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 0px;
+  background-color: yellow;
+}
+
